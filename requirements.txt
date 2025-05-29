@@ -1,30 +1,22 @@
-# furo==2022.9.15
-# pytz==2021.1
-# PyYAML
-# requests
-# Sphinx
-# sphinx-basic-ng==0.0.1a12
-# sphinx-book-theme==0.3.3
-# sphinx-contributors==0.2.6
-# sphinx-copybutton==0.5.0
-# sphinx-press-theme==0.7.3
-# sphinx-rtd-theme==0.5.2
-# sphinxcontrib-applehelp==1.0.2
-# sphinxcontrib-devhelp==1.0.2
-# sphinxcontrib-htmlhelp==1.0.3
-# sphinxcontrib-jsmath==1.0.1
-# sphinxcontrib-qthelp==1.0.3
-# sphinxcontrib-serializinghtml==1.1.4
-# sphinxemoji
-# urllib3
-# git+https://github.com/SuperKogito/sphinxcontrib-pdfembed
-sphinx_rtd_theme     # 使用 Read the Docs 主题
+furo==2022.9.15
+pytz==2021.1
+PyYAML
+requests
 Sphinx
+sphinx-basic-ng==0.0.1a12
+sphinx-book-theme==0.3.3
+sphinx-contributors==0.2.6
+sphinx-copybutton==0.5.0
+sphinx-press-theme==0.7.3
+sphinx-rtd-theme==0.5.2
+sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==1.0.3
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.4
 sphinxemoji
-sphinx-copybutton
-sphinx-contributors   
-myst_parser           # 支持 Markdown（推荐）
-sphinx.ext.mathjax
-
+urllib3
 git+https://github.com/SuperKogito/sphinxcontrib-pdfembed
-furo
+myst-parser  # 注意：这里应该是 myst-parser，而不是 myst_parser
+sphinxext-mathjax  # 注意：这里应该是 sphinxext-mathjax 或直接使用 Sphinx 内置的 mathjax
