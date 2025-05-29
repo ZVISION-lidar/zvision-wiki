@@ -15,7 +15,7 @@ author = 'Zvision'
 
 extensions = [
      # 使用 Read the Docs 主题
-    "myst-parser",           # 支持 Markdown（推荐）
+    "myst_parser",           # 支持 Markdown（推荐）
     "sphinx.ext.mathjax",    # 使用 MathJax 渲染 LaTeX 公式
 ]
 

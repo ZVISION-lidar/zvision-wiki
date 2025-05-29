@@ -3,7 +3,7 @@ pytz==2021.1
 PyYAML
 requests
 sphinx>=5.0 
-myst-parser>=0.18
+myst_parser>=0.18
 sphinx-basic-ng==0.0.1a12
 sphinx-book-theme>=0.4
 sphinx-contributors==0.2.6
