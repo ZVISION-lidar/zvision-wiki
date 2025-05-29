@@ -2,7 +2,7 @@ furo==2022.9.15
 pytz==2021.1
 PyYAML
 requests
-Sphinx
+sphinx>=5.0 
 sphinx-basic-ng==0.0.1a12
 sphinx-book-theme==0.3.3
 sphinx-contributors==0.2.6
@@ -19,4 +19,3 @@ sphinxemoji
 urllib3
 git+https://github.com/SuperKogito/sphinxcontrib-pdfembed
 myst-parser  # 注意：这里应该是 myst-parser，而不是 myst_parser
-sphinxext-mathjax  # 注意：这里应该是 sphinxext-mathjax 或直接使用 Sphinx 内置的 mathjax
