@@ -1,6 +1,5 @@
 # furo==2022.9.15
 # pytz==2021.1
-
 # PyYAML
 # requests
 # Sphinx
@@ -19,10 +18,13 @@
 # sphinxemoji
 # urllib3
 # git+https://github.com/SuperKogito/sphinxcontrib-pdfembed
-sphinx_rtd_theme
+sphinx_rtd_theme     # 使用 Read the Docs 主题
 Sphinx
 sphinxemoji
 sphinx-copybutton
-sphinx-contributors
+sphinx-contributors   
+myst_parser           # 支持 Markdown（推荐）
+sphinx.ext.mathjax
+
 git+https://github.com/SuperKogito/sphinxcontrib-pdfembed
 furo
