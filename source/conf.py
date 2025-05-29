@@ -7,20 +7,25 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Zvision-Wiki'
-copyright = '2025, Yao Cheng'
-author = 'Yao Cheng'
+copyright = '2025,Zvision'
+author = 'Zvision'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    "sphinx_rtd_theme"
+    "sphinx_rtd_theme",      # 使用 Read the Docs 主题
+    "myst_parser",           # 支持 Markdown（推荐）
+    "sphinx.ext.mathjax",    # 使用 MathJax 渲染 LaTeX 公式
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
 
-
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",  # 添加 .md 支持
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
