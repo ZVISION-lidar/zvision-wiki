@@ -1,0 +1,208 @@
+/* ×ó²àmenuÑùÊ½µ÷Õû */
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+  color: #FFFFFF;   /*标题栏的颜色*/
+  height: 32px;
+  line-height: 32px;
+  padding: 0 1.618em;
+  margin: 12px 0 0;
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 85%;
+  white-space: nowrap;
+}
+
+.wy-menu-vertical a {
+    line-height: 18px;
+    padding: .4045em 1.618em;
+    display: block;
+    position: relative;
+    font-size: 100%;
+    color: #ffffff;
+}
+
+ .wy-menu-vertical li.current a {
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    background: #fcfcfc;
+    border: none;
+    padding: .4045em 1.618em;
+}
+
+
+
+
+.wy-nav-side {      /*导航栏底栏颜色*/
+  background: #4298B5;
+}
+
+.wy-menu-vertical li a{  /*二级菜单颜色*/
+    background: #4298B5;
+}
+
+.wy-menu-vertical li a:hover {  /*二级菜单鼠标悬浮后的颜色*/
+    background: #59abc7;
+}
+
+.wy-menu-vertical li.current a{  /*二级菜单颜色*/
+    background: #fcfcfc;
+    color: #404040;
+}
+
+.wy-menu-vertical li.current a:hover {  /*二级菜单鼠标悬浮后的颜色*/
+    background: #fcfcfc;
+    color: #404040;
+}
+
+.wy-menu-vertical li.toctree-l2.current a {
+    background: #9b9b9b;
+
+.wy-menu-vertical li.toctree-l2.current a:hover {
+    background: #A8D4DE;
+}
+
+.wy-menu-vertical li.toctree-l2 a {
+    background: #9b9b9b;
+}
+
+.wy-menu-vertical li.toctree-l2 a:hover {
+    background: #9b9b9b;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3.current a {
+    background: #4298B5;
+}
+
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3.current a:hover{
+    background: #A8D4DE;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 a {
+    background: #87C4D3;
+}
+
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3 a:hover{
+    background: #A8D4DE;
+}
+
+
+.wy-side-nav-search input[type=text] {
+  border-color: #e72420;
+}
+
+/* Òþ²ØÓÒ²à¹ã¸æ */
+#readthedocs-ea {
+  display: none;
+  a:visited {
+    color: #2980b9;
+  }
+}
+
+/* Òþ²Øµ×²¿¹ã¸æ */
+#readthedocs-ea-text-footer {
+  display: none;
+}
+
+readthedocs-flyout {
+  display: none;
+}
+
+/* Ãæ°üÐ¼ÑùÊ½µ÷Õû */
+.wy-breadcrumbs-translate {
+  margin-right: 24px;
+  float: right;
+  padding-top: 4px !important;
+}
+
+.wy-breadcrumbs-aside {
+  position: relative;
+  top: -1.618em;
+  right: -3.236em;
+}
+
+@media screen and (max-width: 768px) {
+  .wy-breadcrumbs-translate {
+    margin-right: 8px;
+  }
+  .wy-breadcrumbs-aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .wy-breadcrumbs-aside svg {
+    fill: #fff !important;
+    color: #e72420 !important;
+  }
+}
+
+.wy-nav-content {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0;
+}
+
+#lightbox {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity ease 0.4s;
+    user-select: none;
+}
+#lightbox.show {
+    visibility: visible;
+    opacity: 1;
+}
+#lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    transition: transform 0.1s ease-out;
+    cursor: grab;
+    transform-origin: center center;
+}
+#lightbox img:active {
+    cursor: grabbing;
+}
+
+.centered-table-text {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.video-container iframe {
+  border: none;
+}
+
+/* ¶¨Òå°´Å¥µÄÑùÊ½ */
+.rounded-button {
+    background-color: #0096FF !important;    /* °´Å¥µÄ±³¾°ÑÕÉ« */
+    color: whitesmoke !important;            /* °´Å¥µÄÎÄ±¾ÑÕÉ« */
+    font-size: 16px;                         /* °´Å¥µÄ×ÖÌå´óÐ¡ */
+    padding: 10px 20px;                      /* °´Å¥µÄÄÚ±ß¾à */
+    border: none;                            /* °´Å¥µÄ±ß¿òÑùÊ½ */
+    border-radius: 10px;                     /* °´Å¥µÄÔ²½Ç */
+    cursor: pointer;                         /* °´Å¥µÄÊó±êÖ¸ÕëÑùÊ½ */
+    transition: background-color 0.3s ease;  /* °´Å¥µÄ¹ý¶ÉÐ§¹û */
+    text-decoration: none;                   /* ÒÆ³ý³¬Á´½ÓµÄÄ¬ÈÏÏÂ»®Ïß */
+    display: inline-block;                   /* ³¬Á´½ÓµÄÏÔÊ¾·½Ê½Îª¿é¼¶ÔªËØ */
+}
+
+/* Êó±êÐüÍ£Ê±µÄÑùÊ½ */
+.rounded-button:hover {
+    background-color: #89CFF0 !important;  /* Êó±êÐüÍ£Ê±¸Ä±ä±³¾°ÑÕÉ« */
+}
+
+
